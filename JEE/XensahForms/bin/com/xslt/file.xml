@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href= "XensahForms.xsl" ?>
+
+<plan>
+	<figure type="square">
+		<name>(S)</name>
+		<color>orange</color>
+		<x>5</x>
+		<y>1</y>
+		<side>3</side>
+	</figure>
+	<figure type="rectangle">
+		<name>(R)</name>
+		<color>green</color>
+		<x>2</x>
+		<y>20</y>
+		<height>3</height>
+		<width>6</width>
+	</figure>
+	<figure type="circle">
+		<name>(C)</name>
+		<color>brown</color>
+		<cx>10.5</cx>
+		<cy>11</cy>
+		<r>5</r>
+	</figure>
+	<figure type="line">
+		<name>(D)</name>
+		<color>red</color>
+		<x1>30</x1>
+		<y1>31</y1>
+		<!-- lacher le curseur -->
+		<x2>18</x2>
+		<y2>7</y2>
+	</figure>
+	<figure type="line">
+		<name>(Delta)</name>
+		<color>cyan</color>
+		<x1>43</x1>
+		<y1>40</y1>
+		<!-- lacher le curseur -->
+		<x2>10</x2>
+		<y2>3</y2>
+	</figure>
+	<figure type="triangle">
+		<name>(T1)</name>
+		<color>grey</color>
+		<x1>15</x1>
+		<y1>6</y1>
+		<x2>20</x2>
+		<y2>4</y2>
+		<x3>14</x3>
+		<y3>2</y3>
+	</figure>
+	<figure type="triangle">
+		<name>(T2)</name>
+		<color>purple</color>
+		<x1>30</x1>
+		<y1>9</y1>
+		<x2>25</x2>
+		<y2>5</y2>
+		<x3>38</x3>
+		<y3>3</y3>
+	</figure>
+</plan>

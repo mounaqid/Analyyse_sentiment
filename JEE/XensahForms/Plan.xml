@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="XensahForms.xsl"?><plan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="figure.xsd">
+  <figure type="line">
+    <name>l1</name>
+    <color>java.awt.Color[r=255,g=255,b=0]</color>
+    <x1>10.0</x1>
+    <y1>16.0</y1>
+    <x2>10.0</x2>
+    <y2>16.0</y2>
+  </figure>
+  <figure type="rectangle">
+    <name>rec1</name>
+    <color>java.awt.Color[r=255,g=255,b=0]</color>
+    <x>10.0</x>
+    <y>10.0</y>
+    <height>15.0</height>
+    <width>16.0</width>
+  </figure>
+  <figure type="triangle">
+    <name>T1</name>
+    <color>java.awt.Color[r=64,g=64,b=64]</color>
+    <x1>10.0</x1>
+    <y1>20.0</y1>
+    <x2>10.0</x2>
+    <y2>30.0</y2>
+    <x3>20.0</x3>
+    <y3>30.0</y3>
+  </figure>
+  <figure type="circle">
+    <name>C1</name>
+    <color>java.awt.Color[r=255,g=255,b=0]</color>
+    <cx>90.0</cx>
+    <cy>50.0</cy>
+    <r>30.0</r>
+  </figure>
+  <figure type="square">
+    <name>Square1</name>
+    <color>java.awt.Color[r=255,g=255,b=0]</color>
+    <x>10.0</x>
+    <y>10.0</y>
+    <side>15.0</side>
+  </figure>
+</plan>

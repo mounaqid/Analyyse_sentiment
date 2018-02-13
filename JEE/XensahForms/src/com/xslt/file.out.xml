@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <rect width="111" height="111" x="185" y="37" stroke="orange" stroke-width="4" fill="transparent"/>
+    <text x="240.5" y="92.5" style="fill:black;font-size:25px;font-style:italic;">(S)</text>
+    <rect width="222" height="111" x="74" y="740" stroke="green" stroke-width="4" fill="transparent"/>
+    <text x="185" y="795.5" style="fill:black;font-size:25px;font-style:italic;">(R)</text>
+    <circle cx="388.5" cy="407" r="185" stroke="brown" stroke-width="4" fill="transparent"/>
+    <circle cx="388.5" cy="407" r="3" fill="black"/>
+    <line x1="391.5" y1="407" x2="572.5" y2="407" stroke="blue" stroke-width="3"/>
+    <text x="386.5" y="400" style="fill:black;font-size:25px;font-style:italic;">O</text>
+    <text x="481" y="400" style="fill:black;font-size:25px;font-style:italic;">
+							r=
+							5
+							cm
+						</text>
+    <text x="573.5" y="314.5" style="fill:black;font-size:25px;font-style:italic;text-anchor:start;">(C)</text>
+    <line x1="1110" y1="666" x2="1147" y2="259" stroke="red" stroke-width="4"/>
+    <text x="1115" y="278" style="fill:black;font-size:25px;font-style:italic;">(D)</text>
+    <line x1="1591" y1="370" x2="1480" y2="111" stroke="cyan" stroke-width="4"/>
+    <text x="1596" y="132.5" style="fill:black;font-size:25px;font-style:italic;">(Delta)</text>
+    <polygon points="555,222 740,148 518,74" stroke="grey" stroke-width="4" fill="transparent"/>
+    <text x="740" y="133" style="fill:black;font-size:25px;font-style:italic;">(T1)</text>
+    <polygon points="1110,333 925,185 1406,111" stroke="purple" stroke-width="4" fill="transparent"/>
+    <text x="925" y="170" style="fill:black;font-size:25px;font-style:italic;">(T2)</text>
+</svg>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Déclaration des element  -->
+
+    <xsd:element name="name" type="xsd:string"/>
+    <xsd:element name="color" type="xsd:string"/>
+    <xsd:element name="x" type="xsd:double"/>
+     <xsd:element name="y" type="xsd:double"/>
+      <xsd:element name="x1" type="xsd:double"/>
+       <xsd:element name="y1" type="xsd:double"/>
+       <xsd:element name="x2" type="xsd:double"/>
+       <xsd:element name="y2" type="xsd:double"/>
+       <xsd:element name="x3" type="xsd:double"/>
+       <xsd:element name="y3" type="xsd:double"/>
+       <xsd:element name="height" type="xsd:double"/>
+       <xsd:element name="width" type="xsd:double"/>
+       <xsd:element name="side" type="xsd:double"/>
+       <xsd:element name="cx" type="xsd:double"/>
+       <xsd:element name="cy" type="xsd:double"/>
+       <xsd:element name="r" type="xsd:double"/>
+       
+  
+      	 <!-- Schéma XML -->
+	    <xsd:element name="figure" >
+	        <xsd:complexType>
+	            <xsd:sequence>
+	            
+	                   <xsd:element ref="name"   />
+	                   <xsd:element ref="color"   />
+	                   <xsd:element ref="x"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="y"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="x1"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="y1"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="x2"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="y2"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="x3"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="y3"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="height"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="width"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="cx"  minOccurs="0" maxOccurs="1" />
+	                   <xsd:element ref="cy"  minOccurs="0" maxOccurs="1" />
+	                    <xsd:element ref="r"  minOccurs="0" maxOccurs="1" />
+	                        <xsd:element ref="side"  minOccurs="0" maxOccurs="1" /> 
+	            </xsd:sequence>
+	            
+	            <!-- attribut type -->
+	            
+	            <xsd:attribute name="type">
+	                <xsd:simpleType>
+	                    <xsd:restriction base="xsd:string">
+	                        <xsd:enumeration value="line"/>
+	                        <xsd:enumeration value="rectangle"/>
+	                        <xsd:enumeration value="triangle"/>
+	                        <xsd:enumeration value="circle"/>
+	                        <xsd:enumeration value="square"/>
+	                    </xsd:restriction>
+	                </xsd:simpleType>
+	            </xsd:attribute>
+            
+	        </xsd:complexType>
+	    </xsd:element>
+	    
+	    <!-- le plan -->
+	    <xsd:element name="plan">
+       		 <xsd:complexType>
+		            <xsd:sequence>
+		                <xsd:element ref="figure" maxOccurs="unbounded" />
+		            </xsd:sequence>
+   		     </xsd:complexType>
+    	    </xsd:element>
+    	    
+</xsd:schema>
